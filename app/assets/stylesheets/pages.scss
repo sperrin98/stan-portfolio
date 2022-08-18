@@ -1,7 +1,7 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cairo:wght@400;500&family=Comfortaa&family=Cormorant+SC:wght@300&family=Press+Start+2P&family=Roboto+Mono&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alumni+Sans+Pinstripe&family=Cairo:wght@400;500&family=Comfortaa&family=Cormorant+SC:wght@300&family=Montserrat:wght@300&family=Poppins:wght@300&family=Press+Start+2P&family=Roboto+Mono&family=Silkscreen&display=swap');
 
 *{
   margin: 0;
@@ -61,4 +61,13 @@ h1 {
   color: black;
   position: absolute;
   left: 705px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 19px;
+}
+
+.about-me {
+  position: absolute;
+  left: 705px;
+  top: 95px;
+  font-family: 'Roboto Mono', monospace;
 }

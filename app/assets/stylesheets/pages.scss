@@ -1,3 +1,64 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cairo:wght@400;500&family=Comfortaa&family=Cormorant+SC:wght@300&family=Press+Start+2P&family=Roboto+Mono&family=Silkscreen&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(225, 225, 225);
+  display: flex;
+  justify-content: center;
+}
+
+
+h1 {
+  font-family: 'Silkscreen', cursive;
+  display: flex;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.top-container h1 {
+  font-size: 40px;
+}
+
+.social-links {
+  text-align: center;
+  position: absolute;
+  top: 420px;
+  left: 700px;
+  border-top: 2px solid;
+  width: 440px;
+}
+
+.fab {
+  color: black;
+  padding: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.profile-img {
+  position: absolute;
+  left: 300px;
+  border-right: 2px solid black;
+}
+
+.detail-container {
+  border: 2px solid black;
+  width: 844px;
+  height: 457px;
+}
+
+.sub-heading {
+  color: black;
+  position: absolute;
+  left: 705px;
+}

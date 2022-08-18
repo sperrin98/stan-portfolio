@@ -22,7 +22,12 @@ h1 {
   font-family: 'Silkscreen', cursive;
   display: flex;
   text-align: center;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+h1.title {
+  background-color: black;
+  color: white;
 }
 
 .top-container h1 {
@@ -34,31 +39,39 @@ h1 {
   position: absolute;
   top: 420px;
   left: 700px;
-  border-top: 2px solid;
+  border-top: 2px solid white;
   width: 440px;
+  height: 35px;
+  // padding: 3px;
+  // display: table-row;
+  // text-align-last: justify;
+  background-color: black;
+  display: -webkit-inline-box;
+  -webkit-box-pack: justify;
 }
 
 .fab {
-  color: black;
-  padding: 5px;
+  color: rgb(255, 255, 255);
+  padding-top: 8px;
   height: 40px;
   width: 40px;
+  table-layout: fixed;
 }
 
 .profile-img {
   position: absolute;
   left: 300px;
-  border-right: 2px solid black;
+  border-right: 2px solid rgb(255, 255, 255);
 }
 
 .detail-container {
-  border: 2px solid black;
+  border: 2px solid rgb(255, 255, 255);
   width: 844px;
   height: 457px;
 }
 
 .sub-heading {
-  color: black;
+  color: white;
   position: absolute;
   left: 705px;
   font-family: 'Roboto Mono', monospace;
@@ -71,3 +84,116 @@ h1 {
   top: 95px;
   font-family: 'Roboto Mono', monospace;
 }
+
+.btn-github {
+  width: 88px;
+  background-color: green;
+  height: 33px;
+  border-right: solid 2px;
+  border-left: solid 2px;
+}
+
+.btn-insta {
+  width: 88px;
+  background-color: purple;
+  height: 33px;
+  border-right: solid 2px;
+}
+
+.btn-facebook {
+  width: 88px;
+  background-color: blue;
+  height: 33px;
+  border-right: solid 2px;
+}
+
+.btn-twitter {
+  width: 88px;
+  background-color: rgb(0, 170, 255);
+  height: 33px;
+  border-right: solid 2px;
+}
+
+.btn-linkedin {
+  width: 88px;
+  background-color: navy;
+  height: 33px;
+}
+
+// .gh {
+//   width: 91px;
+//   border-right: solid 2px white;
+//   background-color: green;
+//   height: 33px;
+//   position: relative;
+//   top: -3px;
+//   left: -3px;
+// }
+
+// .insta {
+//   width: 88px;
+//   border-right: solid 2px white;
+//   background-color: purple;
+//   height: 33px;
+//   position: relative;
+//   top: -3px;
+//   left: -3px;
+// }
+
+
+// .fb {
+//   width: 88px;
+//   border-right: solid 2px white;
+//   background-color: blue;
+//   height: 33px;
+//   position: relative;
+//   top: -3px;
+//   left: -3px;
+// }
+
+
+// .twtr {
+//   width: 88px;
+//   border-right: solid 2px white;
+//   background-color: rgb(0, 183, 255);
+//   height: 33px;
+//   position: relative;
+//   top: -3px;
+//   left: -3px;
+// }
+
+// .lin {
+//   width: 85px;
+//   background-color: navy;
+//   height: 33px;
+//   position: relative;
+//   top: -3px;
+//   left: -3px;
+// }
+
+
+// .fa-facebook {
+//   color: blue;
+// }
+
+// .fa-instagram {
+//   color: purple;
+// }
+
+// .fa-twitter {
+//   color: rgb(0, 187, 255);
+// }
+
+// .fa-linkedin {
+//   color: navy;
+// }
+
+.about-container {
+  background-color: black;
+  height: 367px;
+  color: white;
+}
+
+// .github {
+//   color: yellow;
+// }

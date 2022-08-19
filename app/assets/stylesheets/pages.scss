@@ -68,6 +68,7 @@ h1.title {
   border: 2px solid rgb(255, 255, 255);
   width: 844px;
   height: 457px;
+  box-shadow: 5px 5px 10px gray;
 }
 
 .sub-heading {
@@ -118,6 +119,12 @@ h1.title {
   width: 88px;
   background-color: navy;
   height: 33px;
+}
+
+.btn-github:hover {
+  background: white;
+  color: green;
+  transition: 1s ease;
 }
 
 // .gh {

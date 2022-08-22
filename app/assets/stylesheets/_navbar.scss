@@ -1,0 +1,21 @@
+.navbar {
+  height: 50px;
+  color: white;
+}
+
+.nav-link {
+  text-align: right;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-items {
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  align-items: right;
+  flex-direction: row;
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}

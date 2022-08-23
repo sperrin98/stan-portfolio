@@ -234,7 +234,7 @@ h1#title {
 // }
 
 section {
-  min-height: 100vh;
+  // min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -304,10 +304,31 @@ section .text-container .text-box h1 {
 }
 
 .project-title {
-  color: green;
   display: block;
 }
 
 #projects {
   background-color: white;
+}
+
+.flickswipe {
+  width: 600px;
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  left: -450px;
+}
+
+h2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.boatee {
+  font-family: 'Roboto Mono', monospace;
+  // background-color: yellow;
+  width: 600px;
+  position: absolute;
+  top: 370px;
+  right: -500px;
+  text-align: right;
 }

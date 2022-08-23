@@ -25,7 +25,7 @@ h1 {
   border-bottom: 2px solid rgb(255, 255, 255);
 }
 
-h1.title {
+h1#title {
   background-color: black;
   color: white;
 }
@@ -37,7 +37,7 @@ h1.title {
 .social-links {
   text-align: center;
   position: absolute;
-  top: 500px;
+  top: 570px;
   left: 700px;
   border-top: 2px solid white;
   width: 440px;
@@ -69,7 +69,7 @@ h1.title {
   width: 844px;
   height: 457px;
   box-shadow: 5px 5px 10px gray;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 .sub-heading {
@@ -83,7 +83,7 @@ h1.title {
 .about-me {
   position: absolute;
   left: 705px;
-  top: 170px;
+  top: 235px;
   font-family: 'Roboto Mono', monospace;
 }
 

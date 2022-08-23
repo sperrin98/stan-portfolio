@@ -13,7 +13,7 @@
 .top-container {
   width: 100%;
   height: 100vh;
-  background-color: rgb(225, 225, 225);
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
 }
@@ -79,6 +79,7 @@ h1#title {
   left: 705px;
   font-family: 'Roboto Mono', monospace;
   font-size: 19px;
+  text-decoration: none;
 }
 
 .about-me {
@@ -331,4 +332,70 @@ h2 {
   top: 370px;
   right: -500px;
   text-align: right;
+}
+
+.rails-img {
+  height: 50px;
+  position: absolute;
+  left: 400px;
+}
+
+.js-img {
+  height: 50px;
+  position: absolute;
+  right: 400px;
+}
+
+.html-img {
+  height: 50px;
+  position: absolute;
+  top: 300px;
+}
+
+.css-img {
+  height: 50px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+.git-img {
+  height: 50px;
+  position: absolute;
+  top: 400px;
+  right: 300px;
+}
+
+.heroku-img {
+  height: 50px;
+  position: absolute;
+  top: 350px;
+  left: 300px;
+}
+
+.mysql-img {
+  height: 50px;
+  position: absolute;
+  right: 500px;
+  top: 250px;
+}
+
+.ruby-img {
+  height: 50px;
+  position: absolute;
+  top: 100px;
+  right: 80px;
+}
+
+.react-img {
+  height: 50px;
+  position: absolute;
+  left: 500px;
+  top: 500px;
+}
+
+.bootstrap-img {
+  height: 50px;
+  position: absolute;
+  top: 500px;
 }

@@ -399,3 +399,43 @@ h2 {
   position: absolute;
   top: 500px;
 }
+
+.profile {
+  font-family: 'Roboto Mono', Courier, monospace;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Roboto Mono', Courier, monospace;
+}
+
+// .le-wagon {
+//   font-family: 'Roboto Mono', Courier, monospace;
+//   background-color: yellow;
+// }
+
+// .school {
+//   background-color: red;
+//   font-family: 'Roboto Mono', Courier, monospace;
+// }
+
+// .university {
+//   background-color: aqua;
+//   font-family: 'Roboto Mono', Courier, monospace;
+// }
+
+.education {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+
+.edu-item {
+  font-family: 'Roboto Mono', Courier, monospace;
+  justify-content: center;
+  padding-right: 95px;
+}
+
+.edu-item-2 {
+  font-family: 'Roboto Mono', Courier, monospace;
+}
